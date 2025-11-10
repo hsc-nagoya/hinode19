@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Hinode19</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+<!-- Header -->
+<header id="header">
+    <img src="images/logo.png" alt="Hinode19 Logo" style="height:80px;">
+    <h1>Hinode19 International Conference</h1>
+    <p>2026, Nagoya, Japan</p>
+</header>
+
+<!-- About Section -->
+<section id="about">
+    <h2>About Hinode19</h2>
+    <p>The 19th Hinode conference focused on solar physics and space observations.</p>
+</section>
+
+<!-- Program Section -->
+<section id="program">
+    <h2>Program</h2>
+    <p>Download the full program: <a href="pdf/program.pdf">PDF</a></p>
+</section>
+
+<!-- Venue Section -->
+<section id="venue">
+    <h2>Venue</h2>
+    <img src="images/venue.jpg" alt="Conference Venue" style="width:100%; max-width:600px;">
+    <p>Nagoya University, Japan</p>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:hinode19@hsc-nagoya.jp">hinode19@hsc-nagoya.jp</a></p>
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+    <p>Website based on <a href="https://html5up.net/stellar">Stellar by HTML5 UP</a></p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

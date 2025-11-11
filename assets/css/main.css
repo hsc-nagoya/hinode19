@@ -3783,3 +3783,19 @@ input, select, textarea {
 			}
 
 		}
+
+
+/* Added by T.Matsumoto */
+.loc-name {
+  color: #db6c55;
+  font-weight: bold; /* optional: 強調したい場合 */
+}
+
+.loc-affiliation {
+  color: #555555;        /* 所属の色 */
+  font-style: italic;    /* 所属を斜体に */
+  font-weight: normal;   /* 太字を解除 */
+}
+
+		
+		

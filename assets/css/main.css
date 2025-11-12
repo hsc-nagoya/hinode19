@@ -3797,5 +3797,15 @@ input, select, textarea {
   font-weight: normal;   /* 太字を解除 */
 }
 
+.date-date {
+  color: #db6c55;
+  font-weight: bold; /* optional: 強調したい場合 */
+}
+
+.date-comment {
+  color: #555555;        /* 所属の色 */
+  font-style: italic;    /* 所属を斜体に */
+  font-weight: normal;   /* 太字を解除 */
+}
 		
 		

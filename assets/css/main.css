@@ -3086,7 +3086,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 7em 0em 1em 0em ;
 		}
 
 			#header.alt h1 {
@@ -3131,7 +3131,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 6em 0em 3em 0em ;
 				}
 
 		}
@@ -3143,7 +3143,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 5em 3em 2em 3em ;
+					padding: 5em 0em 2em 0em ;
 				}
 
 		}
@@ -3164,7 +3164,7 @@ input, select, textarea {
 					}
 
 				#header.alt {
-					padding: 4em 2em 1em 2em ;
+					padding: 4em 0em 1em 0em ;
 				}
 
 					#header.alt h1 {
@@ -3180,7 +3180,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 4em 1.5em 1em 1.5em ;
+					padding: 4em 0em 1em 0em ;
 				}
 
 		}
@@ -3786,26 +3786,75 @@ input, select, textarea {
 
 
 /* Added by T.Matsumoto */
-.loc-name {
-  color: #db6c55;
-  font-weight: bold; /* optional: 強調したい場合 */
+
+/*------------------------*/
+/* for name & affiliation */
+/*------------------------*/
+
+.namelist {
+    list-style: none;
+    padding-lefg: 0;
 }
 
-.loc-affiliation {
-  color: #555555;        /* 所属の色 */
-  font-style: italic;    /* 所属を斜体に */
-  font-weight: normal;   /* 太字を解除 */
+.namelist .name{
+    color: #db6c55;
+    font-weight: bold; /* optional: 強調したい場合 */
 }
 
-.date-date {
-  color: #db6c55;
-  font-weight: bold; /* optional: 強調したい場合 */
+.namelist .affiliation {
+    color: #555555;        /* 所属の色 */
+    font-style: italic;    /* 所属を斜体に */
+    font-weight: normal;   /* 太字を解除 */
 }
 
-.date-comment {
-  color: #555555;        /* 所属の色 */
-  font-style: italic;    /* 所属を斜体に */
-  font-weight: normal;   /* 太字を解除 */
+
+/*----------------------*/
+/* for important dates  */
+/*----------------------*/
+.schedule {
+  list-style: none;
+  padding-left: 0;
 }
-		
-		
+
+.schedule {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* --- 画面が広い時 --- */
+.schedule li {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 1rem;
+    padding: .3rem 0;
+}
+
+.schedule .date {
+    color: #db6c55; 
+    font-weight: bold;
+    margin-bottom: .2rem;
+}
+  
+/* --- 狭い時は縦並び --- */
+@media screen and (max-width: 736px) {
+  .schedule li {
+    display: block;  /* ← 縦に積む */
+    margin-bottom: 1rem;
+  }
+  .schedule .date {
+    color: #db6c55; 
+    font-weight: bold;
+    display: block;   /* date を上に */
+    margin-bottom: .2rem;
+  }
+}
+
+/*------------------*/
+/* for header image */
+/*------------------*/
+#header img {
+  width: 100%;
+/*  max-width: 82rem; /* Stellar の #main に合わせる */ */
+  margin: 0 auto;
+  display: block;
+}

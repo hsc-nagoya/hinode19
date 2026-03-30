@@ -3876,3 +3876,31 @@ input, select, textarea {
 .custom-link:hover {
   text-decoration: underline;
 }
+
+/*----------------------*/
+/* for button primary   */
+/*----------------------*/
+
+#registration .button.primary {
+  background-color: #B26888;
+  color: white;
+  border: none;
+}
+
+#registration .button.primary:hover {
+  background-color: #5a189a;
+}
+
+/* #registration .button.primary { */
+/*   background-color: #1f5fbf; */
+/*   color: white; */
+/*   border: none; */
+/* } */
+
+/* #registration .button.primary:hover { */
+/*   background-color: #0f3d91; */
+/* } */
+
+#registration .actions.stacked { */
+    align-items: left; */
+} */

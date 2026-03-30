@@ -3864,3 +3864,15 @@ input, select, textarea {
   margin: 0 auto;
   display: block;
 }
+
+/*-------------------*/
+/* for custum link   */
+/*-------------------*/
+.custom-link {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+
+.custom-link:hover {
+  text-decoration: underline;
+}

@@ -3891,6 +3891,16 @@ input, select, textarea {
   background-color: #5a189a;
 }
 
+#travel_support .button.primary {
+  background-color: #B26888;
+  color: white;
+  border: none;
+}
+
+#travel_support .button.primary:hover {
+  background-color: #5a189a;
+}
+
 /* #registration .button.primary { */
 /*   background-color: #1f5fbf; */
 /*   color: white; */
@@ -3904,3 +3914,7 @@ input, select, textarea {
 #registration .actions.stacked { */
     align-items: left; */
 } */
+
+#travel_support strong.deadline {
+  color: red !important;
+}

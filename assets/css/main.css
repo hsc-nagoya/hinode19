@@ -3891,6 +3891,16 @@ input, select, textarea {
   background-color: #5a189a;
 }
 
+#program .button.primary {
+  background-color: #B26888;
+  color: white;
+  border: none;
+}
+
+#program .button.primary:hover {
+  background-color: #5a189a;
+}
+
 #travel_support .button.primary {
   background-color: #B26888;
   color: white;
